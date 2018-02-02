@@ -1,0 +1,47 @@
+html{
+	background-color: #e8ecf2;
+}
+.container{
+	margin:80px auto;
+	width:40%;
+	height:500px;
+	border:1px solid red;
+	background-color: #fff;
+}
+header{
+	display:block;
+	border:1px solid violet;
+	text-align: center;
+	font-size:32px;
+	font-family: "Sans-Serif";
+	color:#999;
+}
+nav a{
+	float:left;
+	text-decoration: none;
+	font-size:20px;
+	color:#000;
+	font-family:"Verdana";
+	margin-right:15px;
+}
+nav a:first-child{
+	margin-left:50px;
+}
+nav img{
+	width:20px;
+	height:20px;
+}
+form p, form input{
+	float:left;
+	clear:both;
+	margin:0px;
+}
+form p{
+	margin-left:20px;
+	margin-top:30px;
+}
+form input{
+	display: block;
+	width:95%;
+	margin-left:5px;
+}
